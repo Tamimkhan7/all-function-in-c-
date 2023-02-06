@@ -3,8 +3,8 @@ using namespace std;
 int main()
 {
     double a,b;
-    cin>>a;
-    int res = floor(a);
+    cin>>a>>b;
+    double res = hypot(a,b);
     cout<<res<<endl;
 
 }

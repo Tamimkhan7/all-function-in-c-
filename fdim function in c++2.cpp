@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-    double a,b;
-    cin>>a;
-    int res = floor(a);
+    int a,b;
+    cin>>a>>b;
+    int res = fdim(a,b);
     cout<<res<<endl;
 
 }
